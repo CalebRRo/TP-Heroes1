@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #edebeb;
+    font-family: "calibri";
+}
+
+header{
+    background: #171717;
+    width: 100%;
+    clear:both;
+    content:"";
+    display: table;
+}
+  
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+header img{
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    padding: 15px 0;
+    float: left;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    color: #edebeb;
+    font-weight: bold;
+
+}
+
+nav a::before{
+    display: block;
+    content: "";
+    width: 0%;
+    background: #edebeb;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+nav a:hover:before{
+    width: 100%;
+}
