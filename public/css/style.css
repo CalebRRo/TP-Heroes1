@@ -15,6 +15,9 @@ header{
     clear:both;
     content:"";
     display: table;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
   
 .menu{
@@ -30,6 +33,9 @@ header img{
 
 nav{
     float: right;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 nav ul li{
@@ -59,3 +65,29 @@ nav a::before{
 nav a:hover:before{
     width: 100%;
 }
+p{
+    
+    margin-left: 15px;
+}
+ol {
+    margin-left: 35px;
+}
+h2{
+    margin: 10px;
+    margin-left: 35px;
+}
+h3{
+    margin: 10px;
+    margin-left: 35px;
+}
+
+ul{
+    margin-left: 35px;
+}
+footer a{
+    margin: 1px;
+}
+img{
+    margin-left: 10px;
+}
+
